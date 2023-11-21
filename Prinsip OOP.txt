@@ -1,0 +1,14 @@
+Prinsip OOP yang digunakan:
+
+Encapsulation:
+Membungkus data dan fungsi yang terkait kedalam satu unit
+atribut kelas Order (self, order_id, customer_name, order-date, total_amount)
+Membatasi akses ke properti objek, menggunakan metode (calculate_tax) untuk interaksi dengan objek
+
+Polymorphism:
+Mendefinisikan metode yang sama dengan use case yang berbeda
+Metode (calculate_tax) diterapkan dengan cara yang berbeda dikelas lain yang mewakili kelas "Order"
+
+Abstraction:
+proses menyembunyikan detail-detail yang tidak penting dan hanya menampilkan fitur yang penting
+pada kelaa "Order" dan "OrderProcessor" merepresentasikan konsep nyata (pesanan dan pemrosesan pesanan) 
